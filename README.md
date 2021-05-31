@@ -1,1 +1,12 @@
-# Simple Instance of LoadBalancer
+![Product Name Screen Shot][nestjs-logo]
+
+# LoadBalancer
+Simple Instance of LoadBalancer
+
+# Docker install
+docker run -d --name load-balaner -p 3005:3005 -v c:\loadbalancer\haproxy:/usr/local/etc/haproxy:ro haproxy
+
+# Description
+Open Workspace file in VsCode and run two projects(server-1 & server-2)
+then request to http://localhost:3005/
+
