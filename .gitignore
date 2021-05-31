@@ -1,0 +1,53 @@
+
+# compiled output - server-1
+/server-1/dist
+/server-1/node_modules
+/server-1/dist_ui
+
+# compiled output - server-2
+/server-2/dist
+/server-2/node_modules
+/server-2/dist_ui
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode - server-1
+server-1/.vscode/*
+!server-1/.vscode/settings.json
+!server-1/.vscode/tasks.json
+!server-1/.vscode/launch.json
+!server-1/.vscode/extensions.json
+
+# IDE - VSCode - server-2
+server-2/.vscode/*
+!server-2/.vscode/settings.json
+!server-2/.vscode/tasks.json
+!server-2/.vscode/launch.json
+!server-2/.vscode/extensions.json
+
+*.ps1
+
+file-storage/**
+image-compression/**
