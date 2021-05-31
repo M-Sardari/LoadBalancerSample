@@ -3,7 +3,7 @@
 # LoadBalancer
 Simple Instance of LoadBalancer
 
-# Docker install
+# Run haproxy Docker
 docker run -d --name load-balaner -p 3005:3005 -v c:\loadbalancer\haproxy:/usr/local/etc/haproxy:ro haproxy
 
 # Description
