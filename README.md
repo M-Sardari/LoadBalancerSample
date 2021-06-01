@@ -22,14 +22,16 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
   
+# Description
+Open Workspace file in VsCode and run two projects(server-1 & server-2)
+then request to http://localhost:3005/
+
+
 # Run haproxy Docker
 
 ```bash
 $ docker run -d --name load-balaner -p 3005:3005 -v c:\loadbalancer\haproxy:/usr/local/etc/haproxy:ro haproxy
 ```
-# Description
-Open Workspace file in VsCode and run two projects(server-1 & server-2)
-then request to http://localhost:3005/
 
 ## license
 
